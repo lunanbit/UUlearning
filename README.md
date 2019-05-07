@@ -26,5 +26,5 @@ You can run an example code of UU learning on benchmark datasets (MNIST, CIFAR-1
 You can see additional information by adding ```--help```.
 
 ## Result
-After running ```experiment.py```, the test figure and log file are made in ```output/dataset/``` by default.
+After running ```experiment.py```, the test performance figure and log file are made in ```output/dataset/``` by default.
 The errors are measured by zero-one loss.
