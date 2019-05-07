@@ -53,7 +53,7 @@ def get_args():
         args.model = "mlp"
 
     elif args.dataset == "cifar10":
-        if args.mode == "UU" or mode == "UU_simp":
+        if args.mode == "UU" or args.mode == "UU_simp":
             args.unlabeled1 = 25000
             args.unlabeled2 = 25000
         elif args.mode == "PN":
@@ -72,12 +72,12 @@ def get_args():
         args.weightdecay = 5e-3
         args.model = "resnet32"
 
-    if args.mode == "UU":
+    if args.mode == "UU" or args.mode == "UU_simp":
         assert (0 < args.theta1 <= 1)
         assert (0 < args.theta1 <= 1)
         assert (args.theta1 > args.theta2)
         assert (1 - args.theta1 + args.theta2 < 0.5)
-    elif args.mode == "PN":
+    elif args.mode == "PN" or args.mode == "small_PN":
         args.theta1 = 1
         args.theta2 = 0
 
@@ -178,4 +178,3 @@ if __name__ == '__main__':
     print("unlabeled2: {}".format(args.unlabeled2))
 
     exp(args)
-
