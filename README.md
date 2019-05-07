@@ -7,7 +7,7 @@ This is a reproducing code for the ICLR'19 paper: On the Minimal Supervision for
 * ```experiment.py``` is an example code of UU learning. 
 
 Datasets are MNIST preprocessed in such a way that even digits form the P class and odd digits form the N class and
-CIFAR10 preprocessed in such a way that the P class is composed of ‘bird’, ‘cat’, ‘deer’, ‘dog’, ‘frog’ and ‘horse’; the N class is composed of ‘airplane’, ‘automobile’, ‘ship’ and ‘truck’.
+CIFAR10 preprocessed in such a way that the P class is composed of `bird’, `cat’, ‘deer’, ‘dog’, ‘frog’ and ‘horse’; the N class is composed of ‘airplane’, ‘automobile’, ‘ship’ and ‘truck’.
 
 ## Requirements
 * Python 3
