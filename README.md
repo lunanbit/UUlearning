@@ -14,8 +14,8 @@ CIFAR10 preprocessed in such a way that the P class is composed of ‘bird’, �
 * Numpy 1.14.1
 * Keras 2.1.4
 * Tensoflow 1.8.0
-* scipy 1.0.0
-* matplotlib 2.1.2
+* Scipy 1.0.0
+* Matplotlib 2.1.2
   
 
 ## Quick start
