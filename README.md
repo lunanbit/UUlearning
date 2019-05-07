@@ -28,3 +28,5 @@ You can see additional information by adding ```--help```.
 ## Result
 After running ```experiment.py```, the test performance figure and log file are made in ```output/dataset/``` by default.
 The errors are measured by zero-one loss.
+
+Contact: Nan Lu (lu@ms.k.u-tokyo.ac.jp).
