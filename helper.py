@@ -80,7 +80,7 @@ def lr_decay_schedule(loss, theta1, theta2):
         elif 0.3 < 1 - theta1 + theta2 <= 0.4:
             lr_decay = 1e-4
         else:
-            lr_decay = 1e-3
+            lr_decay = 5e-4
     else:
         if 1 - theta1 + theta2 < 0.2:
             lr_decay = 0
